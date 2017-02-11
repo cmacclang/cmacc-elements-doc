@@ -1,0 +1,40 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`cmacc-elements-doc`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="cmacc-elements-doc">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+
+
+  </template>
+
+  <script>
+      Polymer({
+
+          is: 'cmacc-elements-doc',
+
+          properties: {
+              file: {
+                  type: String,
+                  value: ''
+              },
+              data: {
+                  type: Object,
+                  value: {}
+              }
+          }
+
+      });
+  </script>
+</dom-module>
